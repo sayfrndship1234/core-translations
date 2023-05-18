@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Urdu ur-PK(اردو - پاکستان)</name>
+        <packagename>ur-PK</packagename>
+	<version/>
+	<creationDate/>
+	<author>Abdul waheed</author>
+	<authorEmail>info@abdulwaheed.pk</authorEmail>
+	<authorUrl>www.abdulwaheed.pk</authorUrl>
+	<copyright>Copyright (C) 2010 - 2023 Open Source Matters.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Abdul waheed</packager>
+	<packagerurl>www.abdulwaheed.pk</packagerurl>
+	<description><![CDATA[
+        <div class="alert alert-info">
+<h4 class="alert-heading" style="direction: rtl;">اردو</h4>
+<div class="alert-message" style="direction: rtl;">یونیفائیڈ کوڈ کے ساتھ جوملا مواد کے انتظام کے نظام کے لیے اردو زبان کا پیکیج انسٹال کر دیا گیا ہے۔</div>
+</div>
+        ]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ur-PK">language/ur-PK</folder>
+		<folder type="language" client="administrator" id="ur-PK">administrator/language/ur-PK</folder>
+		<folder type="language" client="api" id="ur-PK">api/language/ur-PK</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
+	</updateservers>
+</extension>
